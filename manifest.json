@@ -1,0 +1,17 @@
+{
+    "name": "Clairvia Schedule Downloader",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "description": "An extension to pull a given user's schedule from clairvia and download an events calendar in ICS format",
+    "icons": {
+        "16": "icons/medical-calendar.jpeg",
+        "32": "icons/medical-calendar.jpeg",
+        "48": "icons/medical-calendar.jpeg",
+        "128": "icons/medical-calendar.jpeg"
+    },
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "permissions": ["cookies"],
+    "host_permissions": ["*://*.prx.texashealth.org/"]
+}
